@@ -57,8 +57,11 @@ transform: rotate(25deg);
 
 
 /* Photgraphy */
-.pic-size{
+#Photography{
+  text-align: center;
+}
+
+.testimonial-image{
   width: 50%;
-  height: 50%;
-  padding: 7% 15%;
+  margin: 10% 15%;
 }
