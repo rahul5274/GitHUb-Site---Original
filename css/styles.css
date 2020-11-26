@@ -9,7 +9,7 @@ body{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 5%;
 }
 
 
@@ -50,18 +50,137 @@ h1{
 }
 
 /* Image */
-.title-image{
-  width: 60%;
+@media  (min-width:1398px) and (max-width:2000px){
+
+.title-image {
+  width: 15%;
 transform: rotate(25deg);
+position: absolute;
+right: 35%;
+}
+}
+
+/* Fetaure*/
+@media  (min-width:1398px) and (max-width:2000px){
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+}
+
+h3{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.icon{
+color: #ef8172;
+margin-bottom: 0.5rem;
+}
+
+.icon:hover{
+color: #ff4c68;
 }
 
 
-/* Photgraphy */
-#Photography{
+
+p{
+  color: #8f8f8f;
+}
+
+/* testimonial */
+
+#testimonials{
+
   text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image{
-  width: 70%;
-  margin: 15%;
+  width: 10%;
+  border-radius: 100%;
+  margin: 2.5%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.button-color{background-color: white;}
+
+.button-color:hover{background-color: #ff4c68;}
+
+.card-header{
+  background-color: #ef8172;
+}
+
+
+.card-header:hover{
+  background-color: #ff4c68;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* cta */
+
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 3% 12%;
+}
+.cta-head{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+  padding:  0% 20%;
+}
+/* Footer */
+#footer{
+  text-align: center;
+  background-color: white;
+  padding: 2% 4%;
+}
+
+.SocailTag{
+  margin-right: 25px;
 }
