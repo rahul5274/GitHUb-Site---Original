@@ -3,7 +3,7 @@ body{
 }
 
 #title{
-  background-color: #ff4c68;
+  background-color: #f3bad6;
   color: white;
 
 }
@@ -53,10 +53,10 @@ h1{
 @media  (min-width:1398px) and (max-width:2000px){
 
 .title-image {
-  width: 15%;
-transform: rotate(25deg);
+  width: 35%;
+transform: rotate(0deg);
 position: absolute;
-right: 35%;
+right: 0%;
 }
 }
 
@@ -82,12 +82,12 @@ h3{
 }
 
 .icon{
-color: #ef8172;
+color: #e05297;
 margin-bottom: 0.5rem;
 }
 
 .icon:hover{
-color: #ff4c68;
+color: #f3bad6;
 }
 
 
@@ -101,9 +101,14 @@ p{
 #testimonials{
 
   text-align: center;
-  background-color: #ef8172;
+  background-color: #e05297;
   color: white;
 }
+
+.ChoclateImage{
+  width: 35%;
+}
+
 
 h2{
   font-family: "Montserrat-Bold";
@@ -118,7 +123,7 @@ h2{
 }
 
 #press{
-  background-color: #ef8172;
+  background-color: #e05297;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -142,15 +147,15 @@ h2{
 
 .button-color{background-color: white;}
 
-.button-color:hover{background-color: #ff4c68;}
+.button-color:hover{background-color: #f3bad6;}
 
 .card-header{
-  background-color: #ef8172;
+  background-color: #e05297;
 }
 
 
 .card-header:hover{
-  background-color: #ff4c68;
+  background-color: #f3bad6;
 }
 
 .pricing-column{
@@ -163,7 +168,7 @@ h2{
 
 #cta{
   text-align: center;
-  background-color: #ff4c68;
+  background-color: #f3bad6;
   padding: 3% 12%;
 }
 .cta-head{
