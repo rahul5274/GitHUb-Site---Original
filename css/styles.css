@@ -61,15 +61,13 @@ right: 0%;
 }
 
 /* Fetaure*/
-@media  (min-width:1398px) and (max-width:2000px){
+/* @media  (min-width:1398px) and (max-width:2000px){ */
 #features{
   padding: 7% 15%;
   background-color: white;
   position: relative;
 
 }
-}
-
 .feature-box{
   text-align: center;
   padding: 5% 10%;
