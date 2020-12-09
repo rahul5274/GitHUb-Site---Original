@@ -1,10 +1,12 @@
 body{
   font-family: Montserrat;
+  text-align: center;
 }
 
 #title{
-  background-color: #f3bad6;
-  color: white;
+  /* background-color: #f3bad6;
+  color: white; */
+  text-align: left;
 
 }
 
@@ -12,15 +14,42 @@ body{
   padding: 3% 15% 5%;
 }
 
+.colored-section{
+  background-color: #f3bad6;
+  color: white;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: "Montserrat-bold";
+font-weight: bold;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
 
-h1{
+/* Heading */
+
+/* Big heading */
+.Big-heading{
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold;
-
 }
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
 
 /* Navigtaion Bar */
 .navbar{
@@ -61,24 +90,28 @@ right: 0%;
 }
 
 /* Fetaure*/
-/* @media  (min-width:1398px) and (max-width:2000px){ */
+@media  (min-width:1398px) and (max-width:2000px){
 #features{
   padding: 7% 15%;
   background-color: white;
   position: relative;
-
+}
 }
 .feature-box{
   text-align: center;
   padding: 5% 10%;
 }
 
+.feature-title{
+  font-size: 1.5rem;
+}
 
-h3{
+
+/* h3{
   font-family: "Montserrat-bold";
   font-size: 1.5rem;
   font-weight: bold;
-}
+} */
 
 .icon{
 color: #e05297;
@@ -98,42 +131,19 @@ p{
 /* testimonial */
 
 #testimonials{
-
-  text-align: center;
   background-color: #e05297;
-  color: white;
+  /* color: white; */
 }
 
-.ChoclateImage{
-  width: 35%;
-}
-
-
-h2{
-  font-family: "Montserrat-Bold";
+.testimonial-text{
   font-size: 3rem;
   line-height: 1.5;
 }
 
 .testimonial-image{
-  width: 10%;
+  width: 25%;
   border-radius: 100%;
   margin: 2.5%;
-}
-
-#press{
-  background-color: #e05297;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-.press-logo{
-  width: 12%;
-  margin: 20px 20px 50px;
-}
-
-.carousel-item{
-  padding: 7% 15%;
 }
 
 
@@ -141,7 +151,11 @@ h2{
 
 #pricing{
   padding: 100px;
-  text-align: center;
+}
+
+.Price-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .button-color{background-color: white;}
@@ -166,7 +180,6 @@ h2{
 
 
 #cta{
-  text-align: center;
   background-color: #f3bad6;
   padding: 3% 12%;
 }
@@ -180,7 +193,6 @@ h2{
 }
 /* Footer */
 #footer{
-  text-align: center;
   background-color: white;
   padding: 2% 4%;
 }
